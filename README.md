@@ -1,4 +1,4 @@
-# weirdhost-login
+# ⭐ Star 星星走起 动动发财手点点 ⭐
 Weirdhost &amp; 自动续期 &amp; 多账号版
 ### ✅ 需要添加的 Secrets
 
