@@ -47,13 +47,13 @@ jobs:
         run: |
           xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" python scripts/weirdhost_renew.py
 
-#      - name: 上传调试截图
-#        if: always()
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: debug-screenshots
-#          path: "*.png"
-#          retention-days: 3
+      - name: 上传调试截图
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshots
+          path: "*.png"
+          retention-days: 3
 
       - name: 清理旧的工作流运行记录
         uses: Mattraks/delete-workflow-runs@v2
